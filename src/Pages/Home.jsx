@@ -5,7 +5,7 @@ import HomeTow from "./HomeTow";
 const Home = () => {
     const [selectedCategory, setSelectedCategory] = useState("All Products");
 
-    // Callback to update category from Categoryes component
+
     const handleCategorySelect = (category) => {
         setSelectedCategory(category);
     };

@@ -1,6 +1,6 @@
 import './css/Category.css'
 const Categoryes = ({ onSelectCategory }) => {
-    const categories = ["All Products", "Laptops", "Smartphones", "Accessories"]; // Example categories
+    const categories = ["All Products", "Laptops", "Smartphones", "Accessories"]; 
 
     return (
         <div className="flex flex-col p-7">

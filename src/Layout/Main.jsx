@@ -5,9 +5,9 @@ import Navbar from "../Components/Navbar";
 const Main = () => {
     return (
         <div className="container mx-auto">
-            {/* <Navbar></Navbar>
-            <OutLet></OutLet>
-            <Footer></Footer> */}
+            <Navbar></Navbar>
+            <Outlet></Outlet>
+            <Footer></Footer>
             <Navbar></Navbar>
             
             <div className="py-12">               

@@ -7,7 +7,7 @@ const HomeTow = ({ selectedCategory }) => {
 
     // Fetching data on mount
     useEffect(() => {
-        fetch('../Gadgets.json')
+        fetch('/Gadgets.json')
             .then(response => response.json())
             .then(fetchedData => setData(fetchedData));
     }, []); // Only runs once when component is mounted

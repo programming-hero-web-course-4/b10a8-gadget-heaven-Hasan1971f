@@ -6,10 +6,15 @@ import Heading from '../Components/Heading';
 const Statistics = () => {
   const data = useLoaderData();
 
-  // Reformat data for the chart
+  
+  if (!data || !Array.isArray(data) || data.length === 0) {
+    return <div></div>;  
+  }
+
+ 
   const chartData = data.map(item => ({
-    name: item.product_title, // Show product title on X-axis
-    price: item.price,         // Show price on Y-axis
+    name: item.product_title, 
+    price: item.price,         
   }));
 
   return (

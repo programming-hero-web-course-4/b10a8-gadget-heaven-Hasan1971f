@@ -38,7 +38,7 @@ const Navbar = () => {
     return (
 
         <div>
-            <div className={`${location.pathname === '/' ? 'mb-96 container' : ''}`}>
+           <div className={`${location.pathname === '/' ? 'mb-96 container' : ''}`}>
                 <div className={`${location.pathname === '/' ? 'bg-[#9538E2] h-[394px] text-white rounded-lg' : 'text-black'}`}>
 
                     <div className="navbar">
